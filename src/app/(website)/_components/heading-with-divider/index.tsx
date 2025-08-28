@@ -12,7 +12,6 @@ type Props = {
   buttonLink?: string;
   titleContainerClassName?: string;
   dividerContainerClassName?: string;
-  titleClassName?: string;
   buttonClassName?: string;
   colouredDividerClassName?: string;
   dividerClassName?: string;
@@ -26,7 +25,6 @@ const HeadingWithDivider = ({
   buttonLink,
   titleContainerClassName,
   dividerContainerClassName,
-  titleClassName,
   buttonClassName,
   colouredDividerClassName,
   dividerClassName,

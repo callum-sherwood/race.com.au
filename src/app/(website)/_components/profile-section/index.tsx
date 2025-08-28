@@ -7,9 +7,7 @@ import { Tab } from "rizzui/tabs";
 import { Profiles_Tab } from "@/data/(website)/_homepage";
 import ImageBox from "../image-box";
 
-type Props = {};
-
-const Profile = (props: Props) => {
+const Profile = () => {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0);
 
   return (

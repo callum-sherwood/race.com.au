@@ -6,9 +6,7 @@ import HeadingWithDivider from "../_components/heading-with-divider";
 import { tracks } from "@/data/(website)/_tracks";
 import ArticleList from "../_components/article-list";
 
-type Props = {};
-
-const Page = (props: Props) => {
+const Page = () => {
   return (
     <ContentWithAdsLayout
       className="pb-20 bg-[#f5f5f5]"

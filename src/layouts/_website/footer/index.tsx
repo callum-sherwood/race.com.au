@@ -8,9 +8,8 @@ import { socials } from "@/data/(website)/_header";
 import Link from "next/link";
 import { Icon } from "@iconify/react";
 
-type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <>
       <Newsletter />

@@ -7,8 +7,6 @@ import { topBannerAds, sidebarAds } from "@/app/(website)/page";
 import { News_Listing } from "@/data/(website)/_homepage/news-listing";
 import NewsDetails from "@/app/(website)/_components/news-details";
 
-type Props = {};
-
 const Page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   const { slug } = await params;
   const data = News_Listing.find(

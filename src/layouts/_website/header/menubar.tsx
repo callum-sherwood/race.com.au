@@ -3,9 +3,7 @@ import cn from "@/core/utils/class-names";
 import { menu_items } from "@/data/(website)/_header";
 import Link from "next/link";
 
-type Props = {};
-
-const Menubar = (props: Props) => {
+const Menubar = () => {
   return (
     <section className={cn("bg-gradient-to-r from-lime-700 to-stone-900")}>
       <MaxWidthContainer>

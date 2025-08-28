@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import cn from "@/core/utils/class-names";
 import Image from "next/image";
 import { LuClock4 } from "react-icons/lu";

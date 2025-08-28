@@ -4,9 +4,7 @@ import SingleInputForm from "@/app/(website)/_components/single-input-form";
 import Image from "next/image";
 import cn from "@/core/utils/class-names";
 
-type Props = {};
-
-const Newsletter = (props: Props) => {
+const Newsletter = () => {
   return (
     <section className="bg-gradient-to-r to-[#32830A] from-[#020003] py-12">
       <MaxWidthContainer className="flex flex-row gap-25 items-center">
