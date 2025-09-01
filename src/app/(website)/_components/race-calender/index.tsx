@@ -171,7 +171,7 @@ interface Race {
   location: string;
 }
 
-const RaceCard = ({ date, time, location }: Race) => (
+export const RaceCard = ({ date, time, location }: Race) => (
   <div className="flex items-center justify-between border border-[#E9E9E9] rounded-lg p-4">
     <div className="flex items-center gap-7 relative">
       <div className="rounded-md px-3 py-3 flex items-center justify-center font-semibold bg-[#f6f6f6] aspect-square w-[70px] text-center leading-tight">

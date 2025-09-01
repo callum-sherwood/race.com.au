@@ -263,6 +263,45 @@ const ImageBox = ({
         </div>
       );
 
+    case "trainer profile":
+      return (
+        <div className="flex flex-col items-start shadow-md rounded-lg p-6 gap-3">
+          <div className="text-brand-green rounded-full p-2 bg-[#f3f3f3] ">
+            <Icon icon="iconamoon:profile-light" height={37} width={37} />
+          </div>
+
+          <h4 className="text-xl font-semibold">
+            Name: <span>{data.name}</span>
+          </h4>
+          <div className="w-full bg-[#f4f4f4] p-2.5 rounded-lg text-base font-light space-y-2">
+            <p>
+              <strong>Experience: </strong>
+              <span>{data.experience}</span>
+            </p>
+            <p>
+              <strong>Age: </strong>
+              <span>{data.age}</span>
+            </p>
+            <p>
+              <strong>Height: </strong> <span>{data.height}</span>
+            </p>
+          </div>
+          <p className="line-clamp-2 text-base">
+            <strong>Description : </strong>
+            {data.description}
+          </p>
+          <Link href={buttonLink} className="">
+            <Button className="mt-4 px-0 flex items-center gap-1  text-base font-semibold cursor-pointer hover:underline border-0">
+              {buttonText}
+              <Icon
+                icon="fa6-solid:angle-right"
+                className="h-4 w-4 text-brand-green"
+              />
+            </Button>
+          </Link>
+        </div>
+      );
+
     case "track":
       return (
         <div
