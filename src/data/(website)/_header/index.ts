@@ -54,10 +54,10 @@ export const menu_items: { name: string; url: string }[] = [
   { name: "Article Detail", url: "/article" },
   { name: "Race Calendar", url: "/race-calender" },
   { name: "Race Results", url: "/race-results" },
-  { name: "Individual Race", url: "/" },
-  { name: "Horse Profile", url: "/" },
-  { name: "Trainer Profile", url: "/" },
+  { name: "Individual Race", url: "#" },
+  { name: "Horse Profile", url: "/profile/horse" },   // ✅ semantic
+  { name: "Trainer Profile", url: "/profile/trainer" }, // ✅ semantic
   { name: "Track", url: "/tracks" },
-  { name: "About", url: "/" },
+  { name: "About", url: "#" },
   { name: "Contact Us", url: "/contact-us" },
 ];

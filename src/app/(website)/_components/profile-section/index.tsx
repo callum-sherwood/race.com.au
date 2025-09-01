@@ -7,12 +7,20 @@ import { Tab } from "rizzui/tabs";
 import { Profiles_Tab } from "@/data/(website)/_homepage";
 import ImageBox from "../image-box";
 
-const Profile = () => {
+const Profile = ({
+  className,
+  containerClassName,
+}: {
+  className?: string;
+  containerClassName?: string;
+}) => {
   const [selectedTabIndex, setSelectedTabIndex] = useState(0);
 
   return (
-    <section className="bg-white">
-      <MaxWidthContainer className="bg-[#fafafa] py-15 px-8 mt-20">
+    <section className={cn("bg-white", className)}>
+      <MaxWidthContainer
+        className={cn("bg-[#fafafa] py-15 px-8 mt-20", containerClassName)}
+      >
         <HeadingWithDivider
           title={
             <h2 className={cn("text-[32px] sm:text-[40px]")}>
