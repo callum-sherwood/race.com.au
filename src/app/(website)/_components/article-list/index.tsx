@@ -126,6 +126,7 @@ const ArticleList = ({
               author={showAuthor}
               contentClassName={cn("bg-[#FAFAFA] rounded-b-xl")}
               buttonText={"View Details"}
+              
             />
           </SwiperSlide>
         ))}
