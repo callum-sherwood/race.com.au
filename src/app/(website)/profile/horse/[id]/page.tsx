@@ -27,6 +27,12 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
       profile.id === id
   ) as HorseProfile | undefined;
 
+  const findTrainerId = (name: string) => {
+    return Profiles.find(
+      (tab) => tab.tab_title === "Trainer Profile"
+    )?.profiles.find((profile) => profile.name === name)?.id;
+  };
+
   if (!horseProfile) {
     return <p className="text-center text-gray-500">Horse profile not found</p>;
   }
@@ -162,8 +168,7 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
       <HeadingWithDivider
         title={
           <h2 className={cn("text-[32px] sm:text-[40px]")}>
-            <span className="text-brand-green">Horse</span> &{" "}
-            <span className="text-brand-green">Trainer</span> Profile
+            <span className="text-brand-green">Horse</span> Profile
           </h2>
         }
       />
@@ -236,7 +241,11 @@ const Page = async ({ params }: { params: Promise<{ id: string }> }) => {
               <strong>Description:</strong>{" "}
               {horseProfile.recent_trainer.description}
             </p>
-            <Link href={`/trainer/a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c8d`}>
+            <Link
+              href={`/profile/trainer/${findTrainerId(
+                horseProfile.recent_trainer.name
+              )}`}
+            >
               <Button
                 className="mt-4 px-0 flex items-center gap-1 text-base font-semibold cursor-pointer hover:underline border-0"
                 variant="text"

@@ -20,6 +20,7 @@ import RaceCalender from "@/app/(website)/_components/race-calender";
 import Profile from "@/app/(website)/_components/profile-section";
 import { Button } from "rizzui/button";
 import { News_Listing } from "@/data/(website)/_homepage/news-listing";
+import Link from "next/link";
 
 // Ads
 export const topBannerAds = [
@@ -105,11 +106,11 @@ const NewsListing = () => {
           }
           button={true}
           buttonText="More News"
-          buttonLink="#"
+          buttonLink="/news-listing"
         />
 
         <div className="pt-8 flex flex-col lg:flex-row gap-10">
-          <div className="lg:w-2/3 w-full">
+          <Link href={`${News_Listing[0].url}`} className="lg:w-2/3 w-full">
             <div className="w-full">
               <Image
                 src={News_Listing[0].image}
@@ -142,7 +143,7 @@ const NewsListing = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </Link>
 
           <div className="lg:w-1/3 w-full">
             {News_Listing.slice(1, 4).map((news, index) => (

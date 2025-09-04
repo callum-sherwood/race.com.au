@@ -376,7 +376,7 @@ export const Profiles = [
       {
         id: "a3b4c5d6-e7f8-4a9b-0c1d-2e3f4a5b6c8d",
         name: "John Smith",
-        image: "/images/trainers/john-smith.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "45 years",
         height: "5'11\"",
         description:
@@ -400,7 +400,7 @@ export const Profiles = [
       {
         id: "b4c5d6e7-f8a9-4b0c-1d2e-3f4a5b6c7d9e",
         name: "Emma Davis",
-        image: "/images/trainers/emma-davis.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "38 years",
         height: "5'6\"",
         description:
@@ -426,7 +426,7 @@ export const Profiles = [
       {
         id: "c5d6e7f8-a9b0-4c1d-2e3f-4a5b6c7d8e0f",
         name: "Michael Lee",
-        image: "/images/trainers/michael-lee.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "50 years",
         height: "6'0\"",
         description:
@@ -455,7 +455,7 @@ export const Profiles = [
       {
         id: "d6e7f8a9-b0c1-4d2e-3f4a-5b6c7d8e9f1a",
         name: "Sarah Johnson",
-        image: "/images/trainers/sarah-johnson.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "42 years",
         height: "5'8\"",
         description:
@@ -484,7 +484,7 @@ export const Profiles = [
       {
         id: "e7f8a9b0-c1d2-4e3f-4a5b-6c7d8e9f0a2b",
         name: "David Clark",
-        image: "/images/trainers/david-clark.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "47 years",
         height: "5'10\"",
         description: "Specialist in endurance horse training.",
@@ -512,7 +512,7 @@ export const Profiles = [
       {
         id: "f8a9b0c1-d2e3-4f4a-5b6c-7d8e9f0a1b3c",
         name: "Linda Martinez",
-        image: "/images/trainers/linda-martinez.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "35 years",
         height: "5'5\"",
         description: "Focused on developing young racing talent.",
@@ -540,7 +540,7 @@ export const Profiles = [
       {
         id: "a9b0c1d2-e3f4-4a5b-6c7d-8e9f0a1b2c4d",
         name: "Robert Taylor",
-        image: "/images/trainers/robert-taylor.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "44 years",
         height: "6'1\"",
         description: "Expert in versatile race training techniques.",
@@ -563,7 +563,7 @@ export const Profiles = [
       {
         id: "b0c1d2e3-f4a5-4b6c-7d8e-9f0a1b2c3d5e",
         name: "Katherine Brown",
-        image: "/images/trainers/katherine-brown.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "39 years",
         height: "5'7\"",
         description: "Specializes in sprint and speed-focused training.",
@@ -588,7 +588,7 @@ export const Profiles = [
       {
         id: "c1d2e3f4-a5b6-4c7d-8e9f-0a1b2c3d4e6f",
         name: "William Harris",
-        image: "/images/trainers/william-harris.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "48 years",
         height: "6'2\"",
         description: "Expert in endurance and strength conditioning.",
@@ -616,7 +616,7 @@ export const Profiles = [
       {
         id: "d2e3f4a5-b6c7-4d8e-9f0a-1b2c3d4e5f7a",
         name: "Elizabeth Moore",
-        image: "/images/trainers/elizabeth-moore.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "36 years",
         height: "5'5\"",
         description: "Focuses on precision and agility training.",
@@ -641,7 +641,7 @@ export const Profiles = [
       {
         id: "e3f4a5b6-c7d8-4e9f-0a1b-2c3d4e5f6a8b",
         name: "Thomas Evans",
-        image: "/images/trainers/thomas-evans.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "46 years",
         height: "5'11\"",
         description: "Expert in competitive race strategies.",
@@ -666,7 +666,7 @@ export const Profiles = [
       {
         id: "f4a5b6c7-d8e9-4f0a-1b2c-3d4e5f6a7b9c",
         name: "Laura Wilson",
-        image: "/images/trainers/laura-wilson.jpg",
+        image: "https://i.pravatar.cc/500",
         age: "40 years",
         height: "5'7\"",
         description: "Specializes in tactical race preparation.",

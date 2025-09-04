@@ -58,6 +58,6 @@ export const menu_items: { name: string; url: string }[] = [
   { name: "Horse Profile", url: "/profile/horse" },   // ✅ semantic
   { name: "Trainer Profile", url: "/profile/trainer" }, // ✅ semantic
   { name: "Track", url: "/tracks" },
-  { name: "About", url: "#" },
+  { name: "About", url: "/about" },
   { name: "Contact Us", url: "/contact-us" },
 ];

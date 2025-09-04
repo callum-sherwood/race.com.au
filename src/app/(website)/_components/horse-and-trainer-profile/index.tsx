@@ -120,8 +120,8 @@ const HorseAndTrainerProfile = ({
                                 description: trainer.description,
                               }}
                               buttonText="View Details"
-                              // buttonLink={`/profile/trainer/${trainer.id}`}
-                              buttonLink={`#`}
+                              buttonLink={`/profile/trainer/${trainer.id}`}
+                              // buttonLink={`#`}
                             />
                           );
                         }

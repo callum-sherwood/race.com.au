@@ -3,10 +3,16 @@ import MaxWidthContainer from "../max-width";
 import { AboutData } from "@/data/(website)/_homepage";
 import cn from "@/core/utils/class-names";
 
-export const AboutSection = ({ className }: { className?: string }) => {
+export const AboutSection = ({
+  className,
+  containerClassName,
+}: {
+  className?: string;
+  containerClassName?: string;
+}) => {
   return (
     <section className={cn("", className)}>
-      <MaxWidthContainer className="py-24">
+      <MaxWidthContainer className={cn('py-24',containerClassName)}>
         {/* Intro */}
         <div className="flex flex-col items-center justify-center text-center mb-7">
           <p className="text-base bg-[#f5f5f5] rounded-full px-3 py-0.5 font-normal w-fit mb-2">
